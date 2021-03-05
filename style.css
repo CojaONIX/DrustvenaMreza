@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(images/dark-blue.jpg);
+	background-size: 100% 100%;
+    padding: 30px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+nav a {
+    width: 180px;
+}
+
+.divTable {
+    background-color: white;
+    padding: 16px;
+    width: 60%;
+    min-width: 420px;
+}
+
+table {
+    background-color: white;
+}
+
+table tr td {
+    padding: 6px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.aAkcija {
+    text-decoration: none;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: white;
+}
+
+.aUnfollow {
+    color: #ccc;
+}
+
+.aUnfollow:hover {
+    color: yellow;
+    background-color: brown;
+}
+
+.aFollow {
+    color: blue;
+}
+
+.aFollow:hover {
+    color: white;
+    background-color: blue;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.maybe {
+    color: blue;
+}
+
+
+p {
+    margin: 10px;
+    background-color: white;
+}
+
+p label:first-child {
+    display: inline-block;
+    width: 150px;
+}
+
+.form-group span:not(:first-child) {
+    display: block;
+    font-size: 14px;
+}
+
+ul {
+    color: white;
+}
+
+h1, h3 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+
+.polMuski tr td:nth-child(even){
+    color: blue;
+}
+
+.polZenski tr td:nth-child(even){
+    color: red;
+}
+
+.polDrugo tr td:nth-child(even){
+    color: #777;
+}
+
+#badGetId {
+    background-color: red;
+    color: yellow;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+}
